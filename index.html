@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Felicidades!!! </title>
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+    <button id="playButton"> Te amo </button>
+    <h1> Felicidades, amor </h1> 
+    <h3>Como sabes, Hoy cumplimos dos meses y quería hacerte esto</h3>
+
+    
+
+    <audio id="audioPlayer"  src="thousandyears.mp3" autoplay></audio>
+
+    <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            var audio = document.getElementById('audioPlayer');
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('playButton').textContent = 'Pausar música';
+            } else {
+                audio.pause();
+                document.getElementById('playButton').textContent = 'Reproducir música';
+            }
+        });
+    </script>
+    <div>
+        
+        <h2> Adelante, empezamos</h2>
+        <h5>(Tienes que deslizar jsjsjs)</h5>
+
+    </div>
+</body>
+</html>

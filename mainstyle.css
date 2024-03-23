@@ -1,0 +1,13 @@
+body{
+    background-color: turquoise;    size: 12px  ;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.658);
+    float: right;
+    color: rgb(0, 67, 0);
+}
+
+div{
+    text-align: center;
+}
