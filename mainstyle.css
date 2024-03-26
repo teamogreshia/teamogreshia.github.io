@@ -6,8 +6,21 @@ button{
     background-color: rgba(0, 0, 255, 0.658);
     float: right;
     color: rgb(0, 67, 0);
+    width: 75px; 
+    height: 50px;
 }
 
 div{
     text-align: center;
+}
+
+.sorry{
+    text-align: left;
+}
+
+.big{
+    width: 20%;
+}
+.smaller{
+    width: 26.7%;
 }

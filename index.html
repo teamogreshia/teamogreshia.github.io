@@ -16,22 +16,59 @@
     <audio id="audioPlayer"  src="thousandyears.mp3" autoplay></audio>
 
     <script>
-        document.getElementById('playButton').addEventListener('click', function() {
-            var audio = document.getElementById('audioPlayer');
+        var audio = document.getElementById('audioPlayer');
+        var playButton = document.getElementById('playButton');
+
+        playButton.addEventListener('click', function() {
             if (audio.paused) {
                 audio.play();
-                document.getElementById('playButton').textContent = 'Pausar música';
+                playButton.textContent = 'Pausar música';
             } else {
                 audio.pause();
-                document.getElementById('playButton').textContent = 'Reproducir música';
+                playButton.textContent = 'Reproducir música';
             }
+        });
+
+        audio.addEventListener('ended', function() {
+            audio.currentTime = 0;
+            audio.play();
         });
     </script>
     <div>
         
         <h2> Adelante, empezamos</h2>
-        <h5>(Tienes que deslizar jsjsjs)</h5>
+        <h5>(Antes de empezar toca el boton de arriba a la derecha)</h5>
+        <h5>(Y desliza hacia abajo)</h5>
 
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="text-align: center;">te amo guapetona</p>
+    <br><br><br><br><br><br>
+    <div class="sorry">    
+        <h1> Al principio </h1>
+        <h3> Cuando te conocí, <br> fue como si estuvieras bajo un reflector en medio de una multitud </h3>
+        <h3> La primera vez que hablamos te noté diferente, alguien especial <br> pero cuando te conocí &#129321</h3>
+        <h4> A pesar de haberte lastimado por accidente o por mi afán de "darme tiempo" <br> me alegro que me hayas aceptado como tu pareja </h4>
+        
+    </div>
+    <div>
+        <img class="big" src="images/nobios1.png" alt="">
+        <img class="big" src="images/nobios2.jpg" alt="">
+        <img class="big" src="images/nobios3.jpg" alt="">
+        <img class="big" src="images/nobios4.jpg" alt="">
+        <img class="smaller" src="images/nobios6.jpg" alt="">
+        <img class="smaller" src="images/nobios7.jpg" alt="">
+        <img class="smaller" src="images/nobios8.jpg" alt="">
+        <img class="smaller" src="images/nobios9.jpg" alt="">
+        <img class="big" src="images/nobios10.jpg" alt="">
+        <img class="big" src="images/nobios11.jpg" alt="">
+        <img class="big" src="images/nobios12.jpg" alt="">
+        <h3> Aquí quiero poner los momentos que pasamos juntos y me encantó los primeros momento que pasamos juntos, cuando nos empezabamo a gustar y a besar jsjsjs</h3>
+    </div>
+    <br><br><br><br><br><br>
+    <div>
+        <h1>Distancia</h1>
     </div>
 </body>
 </html>
