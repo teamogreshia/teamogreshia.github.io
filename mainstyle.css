@@ -24,3 +24,11 @@ div{
 .smaller{
     width: 26.7%;
 }
+.text{
+    float: right;
+    width: 20%;
+}
+
+h2{
+    color: black;
+}
